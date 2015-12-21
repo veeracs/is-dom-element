@@ -8,6 +8,14 @@ No dependencies are needed.
 ```
 var isDOMElement = require('is-dom-element');
 
+//	Pass a string
+if (isDOMElement('my-node')) {
+	//	is valid DOM element
+}
+
+//	Pass a DOM node
+var myNode = document.querySelector('my-node');
+
 if (isDOMElement('my-node')) {
 	//	is valid DOM element
 }
