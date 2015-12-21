@@ -1,0 +1,24 @@
+{
+  "name": "is-dom-element",
+  "version": "0.0.1",
+  "description": "Checks whether a DOM node passed is of type ELEMENT",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/veeracs/is-dom-element.git"
+  },
+  "keywords": [
+    "DOM",
+    "ELEMENT",
+    "Node"
+  ],
+  "author": "Chandra Sekhar Veera",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/veeracs/is-dom-element/issues"
+  },
+  "homepage": "https://github.com/veeracs/is-dom-element#readme"
+}
