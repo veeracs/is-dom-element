@@ -3,14 +3,10 @@
 /**
  * Checks if a node passed is a DOM Element
  *
- * @param {Node} DOM
+ * @param {targetNode} DOM node
  * @return {Boolean}
  */
 
-module.exports = function (selector) {
-	var targetNode = selector;
-	if (typeof selector === 'string' || selector instanceOf String) {
-		targetNode = document.querySelector(selector);
-	}
+module.exports = function (targetNode) {
 	return Node.ELEMENT_NODE === targetNode.nodeType;
 };
