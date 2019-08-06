@@ -6,10 +6,10 @@ No dependencies are needed.
 
 ## Usage
 ```
-//	Pass a DOM node
+// Pass a DOM node
 var targetNode = document.querySelector('my-node');
 
 if (isDOMElement(targetNode)) {
-	//	is valid DOM element
+	// is valid DOM element
 }
 ```
